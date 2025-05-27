@@ -1,0 +1,202 @@
+@import url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo.css');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Apple SD Gothic Neo", "Helvetica Neue", Arial, sans-serif;
+    /* line-height: 1; */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#container {
+    padding: 50px;
+    background-color: #F2F4F7;
+}
+
+.dep1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dep1-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.dep1 h1 img {
+    width: 21px;
+    height: 22px;
+
+}
+
+.dep1 h1 {
+
+    font-size: 18px;
+    color: #111;
+    display: flex;
+    gap: 10px;
+    /* vertical-align: middle; */
+    /* line-height: 60px; */
+}
+
+.dep1-list a {
+    display: block;
+    padding: 20px 4px 16px;
+    color: rgba(17, 17, 17, 0.48)
+}
+
+.depth {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+}
+
+.dep2 {
+    padding: 0 30px;
+}
+
+.dep3 {
+    margin-top: 20px;
+
+}
+
+.dep2-list {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    padding-top: 5px;
+}
+
+.dep2-list a {
+    font-weight: 800;
+    display: block;
+    padding: 0 18px;
+    color: #000;
+    font-size: 16px;
+    line-height: 40px;
+    position: relative;
+}
+
+.dep2-list a:before {
+    width: 0;
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #000;
+    bottom: -5px;
+    transition: width .3s;
+    left: 10%;
+}
+
+.t-ico a::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #FF4E33;
+    border-radius: 50%;
+    top: 2px;
+    right: 15px;
+
+
+}
+
+.dep2-list a:hover:before {
+    width: 80%;
+}
+
+.location-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather {
+    position: relative;
+}
+
+.weader-name {
+    background-color: #eee;
+
+}
+
+.location-weader {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+
+.degree {
+    font-size: 47.4px;
+    line-height: 53.3px;
+    font-weight: bold;
+    position: relative;
+    margin-right: 19px;
+}
+
+.degree:after {
+    content: "°";
+    position: absolute;
+    font-size: 30px;
+    top: -10px;
+}
+
+.status_wrap {
+    margin-right: 28px;
+}
+
+.status_wrap>div {
+    font-weight: bold;
+}
+
+.status1 {
+    font-size: 18px;
+
+}
+
+.status2 {
+    font-size: 15px;
+
+}
+
+.weather-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.weather-list li {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    width: 70px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-list li img {
+    width: 26px;
+}
+
+.status-wrap {
+    margin-right: 28px;
+}
